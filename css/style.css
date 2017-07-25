@@ -1,0 +1,32 @@
+#heading {
+  text-align: center;
+  color: white;
+  background-color: gray;
+  padding: 10px;
+  margin: auto;
+  width: 700px;
+  font-family: cursive;
+}
+
+#title {
+  font-size: 200%;
+}
+
+button, #content {
+  font-size: 100%;
+  font-family: Arial;
+}
+
+button, p {
+  display: inline;
+  vertical-align: middle;
+}
+
+td {
+  border: 1px solid #000;
+}
+
+tr td:last-child {
+  max-width: 100%;
+  white-space: nowrap;
+}

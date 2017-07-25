@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Lab19</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="heading">
+  <p><span id="title">Grand Circus Grocery</span><br> Click a button or image to add an item to your cart...
+    </>
+</div>
+<br>
+
+<div id="content">
+  <p>Receipt Printer: </p><br>
+  <textarea id="receipt"></textarea><br>
+  <button onclick="sumTotal();">Total: </button>
+  <p id="shoppingList"></p>
+
+  <br>
+  <br>
+
+  <table>
+    <tr>
+      <th>Cart</th>
+      <th><button type="button;" onclick="addItem('Milk', 1.99);">Milk $1.99</button></th>
+      <th><button type="button;" onclick="addItem('Bread', 1.88);">Bread $1.88</button></th>
+      <th><button type="button;" onclick="addItem('Cheese', 2.99);">Cheese $2.99</button></th>
+      <th><button type="button;" onclick="addItem('Cereal', 4.49);">Cereal $4.49</button></th>
+    </tr>
+    <tr>
+      <td><textarea id="textArea" rows="32" cols="11"></textarea></td>
+      <td class="block">
+        <input type=image src="https://www.kroger.com/product/images/large/front/0001111042315" onclick="addItem('Milk', 1.99)" ; height="100%" width="100%"><br></button>
+      </td>
+      <td class="block">
+        <input type=image src="https://www.kroger.com/product/images/large/front/0001111000197" onclick="addItem('Bread', 1.88)" ; height="100%" width="100%"><br></button>
+      </td>
+      <td class="block">
+        <input type=image src="https://www.kroger.com/product/images/large/front/0002100060464" onclick="addItem('Cheese', 2.99)" ; height="100%" width="100%"><br></button>
+      </td>
+      <td class="block">
+        <input type=image src="https://www.kroger.com/product/images/large/front/0001600048366" onclick="addItem('Cereal', 4.49)" ; height="100%" width="100%"><br></button>
+      </td>
+    </tr>
+    </>
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
